@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="es">    <!-- Comentarios -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+        h1{
+            color: blue;
+        }
+        p{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="miTitulo">Luis Angel Posadas del Toro</h1>
+    <p>Cualquier cosa va dentro del parrafo</p> 
+    <script>
+        document.getElementById("miTitulo").addEventListener("click", function(){
+            this.style.color = "white"
+        });
+    </script>
+</body>
+</html>
